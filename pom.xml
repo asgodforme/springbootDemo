@@ -90,6 +90,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/net.minidev/asm -->
+		<dependency>
+			<groupId>net.minidev</groupId>
+			<artifactId>asm</artifactId>
+			<version>1.0.2</version>
+		</dependency>
 
 	</dependencies>
 
