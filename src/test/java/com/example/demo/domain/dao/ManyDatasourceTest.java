@@ -46,9 +46,9 @@ public class ManyDatasourceTest {
 
 		Assert.assertEquals(5, userRepository.findAll().size());*/
 
-		messageRepository.save(new Message("o1", "aaaaaaaaaa"));
+		/*messageRepository.save(new Message("o1", "aaaaaaaaaa"));
 		messageRepository.save(new Message("o2", "bbbbbbbbbb"));
-		messageRepository.save(new Message("o3", "cccccccccc"));
+		messageRepository.save(new Message("o3", "cccccccccc"));*/
 
 		Assert.assertEquals(3, messageRepository.findAll().size());
 

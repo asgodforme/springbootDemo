@@ -26,6 +26,12 @@
 
 	<dependencies>
 
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		
 		<!-- 核心模块，包括自动配置支持、日志和YAML -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -36,7 +42,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
@@ -90,7 +96,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/net.minidev/asm -->
 		<dependency>
 			<groupId>net.minidev</groupId>
