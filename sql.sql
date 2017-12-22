@@ -18,3 +18,6 @@ create table users(
 )
 
 select * from users
+
+insert into users(id, username, passWord) values (1, '姜杰', 'jiangjie1');
+insert into users(id, username, passWord) values (1, '王巧红', 'jiangjie1');
