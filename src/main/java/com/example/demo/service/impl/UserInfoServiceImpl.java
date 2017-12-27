@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import com.example.demo.dao.UserInfoDao;
 import com.example.demo.entity.UserInfo;
 import com.example.demo.service.UserInfoService;
-@Service
+//@Service
 public class UserInfoServiceImpl implements UserInfoService {
 
 	@Resource

@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
-@Configuration
+//@Configuration
 @MapperScan(basePackages="com.example.demo.mapper.test2", sqlSessionTemplateRef="test2SqlSessionTemplate")
 public class DataSource2Config {
 	

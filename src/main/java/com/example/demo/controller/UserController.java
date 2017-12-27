@@ -10,7 +10,7 @@ import com.example.demo.entity.UserEntity;
 import com.example.demo.mapper.test1.User1Mapper;
 import com.example.demo.mapper.test2.User2Mapper;
 
-@RestController
+//@RestController
 public class UserController {
 	
 	@Autowired
