@@ -89,4 +89,11 @@ public class UserInfo implements Serializable {
 		this.roleList = roleList;
 	}
 
+	 /**
+     * 密码盐.
+     * @return
+     */
+    public String getCredentialsSalt(){
+        return this.username+this.salt;
+    }
 }

@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 
 import com.mongodb.MongoClient;
 
-@Configuration
+//@Configuration
 public class MultipleMongoConfig {
 
 	@Autowired
